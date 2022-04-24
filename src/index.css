@@ -1,15 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
+
+[data-theme='blue'] {
+  --primary-color: #a58a7b;
+  --secondary-color: #000000;
+  --black-color: #7a6565;
+  --lightGray-color: #000000;
+  --gray-color: #151618;
+  --brown-color: #211f22;
+  --white-color: #161515;
+}
+
+[data-theme='red'] {
+  --primary-color: #f8f1ed;
+  --secondary-color: #0011ff;
+  --black-color: #a13232;
+  --lightGray-color: #700a0a;
+  --gray-color: #273752;
+  --brown-color: #9626b3;
+  --white-color: #8a2626;
+}
+
 :root {
   --font-base: 'DM Sans', sans-serif;
-
-  --primary-color: #edf2f8;
-  --secondary-color: #313bac;
-  --black-color: #030303;
-  --lightGray-color: #e4e4e4;
-  --gray-color: #6b7688;
-  --brown-color: #46364a;
-  --white-color: #ffffff;
 }
 
 * {
