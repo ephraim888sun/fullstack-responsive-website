@@ -8,6 +8,17 @@ import './Navbar.scss'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
+  const [theme, setTheme] = React.useState('red')
+
+  React.useEffect(() => {
+    document.body.dataset.theme = theme
+  }, [theme])
+
+  const switchTheme = () => {
+    const newTheme = theme === 'red' ? 'blue' : 'red'
+    setTheme(newTheme)
+  }
+
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
@@ -42,6 +53,17 @@ const Navbar = () => {
             </ul>
           </motion.div>
         )}
+      </div>
+
+      {/* toggle button*/}
+      <div className='t'>
+        <img src={images.sun} alt='' className='t-icon' />
+        <img src={images.moon} alt='' className='t-icon' />
+        <div
+          className='t-button'
+          style={{ left: theme === 'red' ? 0 : 25 }}
+          onClick={switchTheme}
+        ></div>
       </div>
     </nav>
   )
