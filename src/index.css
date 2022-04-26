@@ -2,6 +2,7 @@
 
 
 [data-theme='blue'] {
+<<<<<<< HEAD
   --primary-color: #  C8102E;
   --secondary-color: #0033A0;
   
@@ -9,6 +10,10 @@
   --background-color: ;
 
 
+=======
+  --primary-color: #C8102E;
+  --secondary-color: #0033A0;
+>>>>>>> 6ea370a19457524264ea718d1f5d63e084fcf27e
   --black-color: #211103;
   --lightGray-color: #BFB8AD;
   --gray-color: #211103;
@@ -19,11 +24,14 @@
 [data-theme='red'] {
   --primary-color: #0033A0;
   --secondary-color: #C8102E;
+<<<<<<< HEAD
 
   --text-color:;
   --background-color:;
 
 
+=======
+>>>>>>> 6ea370a19457524264ea718d1f5d63e084fcf27e
   --black-color: #211103;
   --lightGray-color: #BFB8AD;
   --gray-color: #211103;
