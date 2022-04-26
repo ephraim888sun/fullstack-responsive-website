@@ -2,8 +2,13 @@
 
 
 [data-theme='blue'] {
-  --primary-color: #C8102E;
+  --primary-color: #  C8102E;
   --secondary-color: #0033A0;
+  
+  --text-color: ;
+  --background-color: ;
+
+
   --black-color: #211103;
   --lightGray-color: #BFB8AD;
   --gray-color: #211103;
@@ -14,6 +19,11 @@
 [data-theme='red'] {
   --primary-color: #0033A0;
   --secondary-color: #C8102E;
+
+  --text-color:;
+  --background-color:;
+
+
   --black-color: #211103;
   --lightGray-color: #BFB8AD;
   --gray-color: #211103;
