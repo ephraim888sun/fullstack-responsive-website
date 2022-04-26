@@ -2,23 +2,12 @@
 
 
 [data-theme='blue'] {
-<<<<<<< HEAD
   --primary-color: #C8102E;
-  --secondary-color: #0033A0;
-=======
-<<<<<<< HEAD
-  --primary-color: #  C8102E;
   --secondary-color: #0033A0;
   
   --text-color: ;
   --background-color: ;
 
-
-=======
-  --primary-color: #C8102E;
-  --secondary-color: #0033A0;
->>>>>>> 6ea370a19457524264ea718d1f5d63e084fcf27e
->>>>>>> 95e734c0186543c21f1dfeff7534af0be1bec137
   --black-color: #211103;
   --lightGray-color: #BFB8AD;
   --gray-color: #211103;
@@ -29,17 +18,10 @@
 [data-theme='red'] {
   --primary-color: #0033A0;
   --secondary-color: #C8102E;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
-  --text-color:;
-  --background-color:;
+  --text-color: ;
+  --background-color: ;
 
-
-=======
->>>>>>> 6ea370a19457524264ea718d1f5d63e084fcf27e
->>>>>>> 95e734c0186543c21f1dfeff7534af0be1bec137
   --black-color: #211103;
   --lightGray-color: #BFB8AD;
   --gray-color: #211103;
