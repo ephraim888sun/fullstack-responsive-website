@@ -57,14 +57,31 @@ const Navbar = () => {
       </div>
 
       {/* toggle button*/}
-      <div className='t'>
-        <img src={images.sun} alt='' className='t-icon' />
-        <img src={images.moon} alt='' className='t-icon' />
+
+      {/* <div
+        className='t'
+        style={{
+          backgroundColor:
+            theme === 'red' ? 'var(--primary-color)' : 'var(--primary-color)',
+        }}
+      >
         <div
           className='t-button'
           style={{ left: theme === 'red' ? 0 : 25 }}
           onClick={switchTheme}
         ></div>
+      </div> */}
+
+      <div className='toggle-button-cover'>
+        <div className='button-cover'>
+          <div className='button'>
+            <input type='checkbox' className='checkbox' />
+            <div className='knobs'>
+              <span></span>
+            </div>
+            <div className='layer'></div>
+          </div>
+        </div>
       </div>
     </nav>
   )
