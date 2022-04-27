@@ -6,11 +6,10 @@
   align-items: center;
 
   padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.25);
   // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid;
   position: fixed;
   z-index: 2;
 }
@@ -56,7 +55,7 @@
     }
 
     a {
-      color: var(--gray-color);
+      color: var(--primary-color);
       text-decoration: none;
       flex-direction: column;
 
@@ -172,35 +171,15 @@
   }
 }
 
-.t {
-  width: 50px;
-  height: 25px;
-  border-radius: 20px;
-  border: 1px solid #999;
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  z-index: 999;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-
-  .t-button {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #999;
-    position: absolute;
-    cursor: pointer;
-  }
-}
-
 /* Toggle Button*/
 
 .toggle-button-cover {
   display: table-cell;
   position: relative;
   box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .button-cover {
@@ -255,7 +234,7 @@
     font-weight: bold;
     text-align: center;
     line-height: 1;
-    background-color: #03a9f4;
+    background-color: #f44336;
     border-radius: 2px;
   }
 
@@ -280,7 +259,7 @@
 
 .layer {
   width: 100%;
-  background-color: #ebf7fc;
+  background-color: var(--light-red);
   transition: 0.3s ease all;
   z-index: 1;
   position: absolute;
@@ -296,7 +275,7 @@
   height: 4px;
   color: transparent;
   margin-top: -2px;
-  background-color: #0095d8;
+  background-color: #d80000;
   transition: 0.3s ease all;
   overflow: hidden;
 }
@@ -308,7 +287,7 @@
 .checkbox:checked:active + .knobs:before {
   left: auto;
   right: 10px;
-  background-color: #d80000;
+  background-color: #0095d8;
 }
 
 .checkbox:checked:active + .knobs span {
@@ -322,9 +301,9 @@
 
 .checkbox:checked + .knobs span {
   left: 42px;
-  background-color: #f44336;
+  background-color: #03a9f4;
 }
 
 .checkbox:checked ~ .layer {
-  background-color: #fcebeb;
+  background-color: var(--light-blue);
 }

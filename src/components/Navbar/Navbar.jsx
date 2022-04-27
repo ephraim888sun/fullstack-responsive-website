@@ -21,7 +21,14 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='app__navbar'>
+    <nav
+      className='app__navbar'
+      style={{
+        backgroundColor:
+          theme === 'red' ? 'var(--light-red)' : 'var(--light-blue)',
+        borderColor: theme === 'red' ? 'var(--light-red)' : 'var(--light-blue)',
+      }}
+    >
       <div className='app__navbar-logo'>
         <img src={theme === 'red' ? images.logoRed : images.logoBlue} alt='' />
       </div>
@@ -57,25 +64,10 @@ const Navbar = () => {
       </div>
 
       {/* toggle button*/}
-
-      {/* <div
-        className='t'
-        style={{
-          backgroundColor:
-            theme === 'red' ? 'var(--primary-color)' : 'var(--primary-color)',
-        }}
-      >
-        <div
-          className='t-button'
-          style={{ left: theme === 'red' ? 0 : 25 }}
-          onClick={switchTheme}
-        ></div>
-      </div> */}
-
       <div className='toggle-button-cover'>
         <div className='button-cover'>
           <div className='button'>
-            <input type='checkbox' className='checkbox' />
+            <input type='checkbox' className='checkbox' onClick={switchTheme} />
             <div className='knobs'>
               <span></span>
             </div>
