@@ -197,11 +197,12 @@
 .button {
   position: relative;
   top: 50%;
-  width: 74px;
-  height: 36px;
+  width: 78px;
+  height: 40px;
   margin: -20px auto 0 auto;
   overflow: hidden;
   border-radius: 2px;
+  border: 1px solid black;
 }
 
 .checkbox {
@@ -250,7 +251,7 @@
 
   span {
     width: 30px;
-    height: 28px;
+    height: 30px;
     padding: 9px 4px;
     transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
     z-index: 1;

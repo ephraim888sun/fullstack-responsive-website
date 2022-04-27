@@ -66,7 +66,12 @@ const Navbar = () => {
       {/* toggle button*/}
       <div className='toggle-button-cover'>
         <div className='button-cover'>
-          <div className='button'>
+          <div
+            className='button'
+            style={{
+              borderColor: 'var(--primary-color)',
+            }}
+          >
             <input type='checkbox' className='checkbox' onClick={switchTheme} />
             <div className='knobs'>
               <span></span>
