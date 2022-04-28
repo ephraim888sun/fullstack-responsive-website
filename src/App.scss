@@ -8,7 +8,7 @@
 }
 
 .app__primarybg {
-  background-color: var(--primary-color);
+  background-color: var(--lightPrimary-color);
 }
 
 .app__container {
@@ -47,7 +47,7 @@
 
   p {
     text-transform: uppercase;
-    color: var(--black-color);
+    color: var(--primary-color);
   }
 }
 
@@ -75,6 +75,7 @@
   font-size: 0.8rem;
   text-align: left;
   color: var(--gray-color);
+  font-weight: bold;
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
@@ -122,12 +123,12 @@
     svg {
       width: 15px;
       height: 15px;
-      color: var(--gray-color);
+      color: var(--primary-color);
     }
 
     &:hover {
-      background-color: var(--secondary-color);
-      border-color: var(--secondary-color);
+      background-color: var(--primary-color);
+      border-color: var(--primary-color);
 
       svg {
         color: var(--white-color);
@@ -166,7 +167,7 @@
     transition: background-color 0.2s ease-in-out;
 
     &:hover {
-      background-color: var(--secondary-color);
+      background-color: var(--primary-color);
     }
 
     @media screen and (min-width: 2000px) {

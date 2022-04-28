@@ -6,10 +6,12 @@
   align-items: center;
 
   padding: 1rem 2rem;
+  background-color: var(--lightPrimary-color);
+
   // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid;
+  border: 1px solid var(--lightPrimary-color);
   position: fixed;
   z-index: 2;
 }
@@ -226,7 +228,7 @@
 
   &::before,
   span {
-    content: "YES";
+    content: "";
     position: absolute;
     top: 4px;
     left: 4px;
@@ -296,7 +298,7 @@
 }
 
 .checkbox:checked + .knobs:before {
-  content: "NO";
+  content: "";
   left: 47px;
 }
 

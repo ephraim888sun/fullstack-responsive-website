@@ -5,6 +5,13 @@
   --primary-color: #C8102E;
   --secondary-color: #0033A0;
 
+  --lightPrimary-color: #fcebeb;
+  --lightSecondary-color: #ebf7fc;
+  
+  --secondPrimary-color: #f44336;
+  --secondSecondary-color: #03a9f4;
+
+
   --text-color: ;
   --background-color: ;
 
@@ -18,6 +25,12 @@
 [data-theme='blue'] {
   --primary-color: #0033A0;
   --secondary-color: #C8102E;
+
+  --lightPrimary-color: #ebf7fc;
+  --lightSecondary-color: #fcebeb;
+
+  --secondPrimary-color: #03a9f4;
+  --secondSecondary-color: #f44336;
   
   --text-color: ;
   --background-color: ;
@@ -33,8 +46,7 @@
 :root {
   --font-base: 'DM Sans', sans-serif;
 
-  --light-red: #fcebeb;
-  --light-blue: #ebf7fc;
+  
 }
 
 * {

@@ -79,8 +79,7 @@
         margin: 0.75rem 0;
         border-radius: 10px;
         cursor: pointer;
-        background-color: var(--primary-color);
-
+        background-color: var(--secondPrimary-color);
         transition: all 0.3s ease-in-out;
 
         input,
@@ -89,7 +88,7 @@
             padding: 0.95rem;
             border: none;
             border-radius: 7px;
-            background-color: var(--primary-color);
+            background-color: var(--lightPrimary-color);
 
             font-family: var(--font-base);
             color: var(--secondary-color);
@@ -109,7 +108,7 @@
         padding: 1rem 2rem;
         border-radius: 10px;
         border: none;
-        background-color: var(--secondary-color);
+        background-color: var(--secondPrimary-color);
 
         font-weight: 500;
         color: var(--white-color);
@@ -121,7 +120,7 @@
         cursor: pointer;
 
         &:hover {
-            background-color: #2430af;
+            background-color: var(--primary-color);
         }
     }
 

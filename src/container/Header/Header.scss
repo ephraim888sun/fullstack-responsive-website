@@ -62,7 +62,8 @@
   .badge-cmp,
   .tag-cmp {
     padding: 1rem 2rem;
-    background: var(--white-color);
+    background: var(--lightPrimary-color);
+    filter: brightness(105%);
     border-radius: 15px;
     flex-direction: row;
     width: auto;
@@ -109,7 +110,7 @@
     height: 100px;
     border-radius: 50%;
 
-    background: var(--white-color);
+    background: var(--lightPrimary-color);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 
     img {
